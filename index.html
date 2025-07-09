@@ -61,7 +61,7 @@
   <script>
     let colorsData = [];
 
-    fetch("pantone_colors.json")
+    fetch("https://searchkaizen.github.io/pantone-colors/pantone_colors.json")
       .then(response => response.json())
       .then(data => {
         colorsData = data;
